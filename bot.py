@@ -31,7 +31,7 @@ def extract_sql_code(input_string):
 # Function to query the database with proper error handling and SQL injection prevention
 def query_db(sql_query):
     try:
-        con = ms.connect(host="localhost", user="root", password="", database="customers")
+        con = ms.connect(host="localhost", user="root", password="0809", database="customers")
         cursor = con.cursor()
         # Use parameterized query to prevent SQL injection
         cursor.execute(sql_query)
