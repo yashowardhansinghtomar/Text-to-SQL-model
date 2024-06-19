@@ -1,0 +1,4 @@
+streamlit==1.21.0  # Ensure you have the latest version or the version you tested with
+mysql-connector-python==8.0.33  # Replace with the version you tested with
+langchain==0.0.8  # Replace with the version you tested with
+langchain-community-llms==0.0.1  # Replace with the version you tested with
